@@ -26,7 +26,7 @@ const TableGrid = props => (
 
       />
       <SortingState
-        defaultSorting={[{ columnName: 'name', direction: 'asc' }]}
+        defaultSorting={[{ columnName: 'rank', direction: 'asc' }]}
       />
       <IntegratedSorting />
       <Table />
